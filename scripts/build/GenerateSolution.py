@@ -13,6 +13,6 @@ print(cmake_build_path)
 
 
 print("Git Sync...")
-# subprocess.call("git submodule update --init --recursive")
+subprocess.call("git submodule update --init --recursive")
 
 subprocess.call(f"cmake -B {cmake_build_path} -G \"{generator}\" -A {arch}")

@@ -1,6 +1,8 @@
-#include <iostream>
+#include "apps/helloworld/helloworld.h"
+#include <entry/entry.h>
 
-int main(int, char **)
+int _main_(int _argc, char** _argv)
 {
-    std::cout << "Hello, world!\n";
+	HelloWorld* app = new HelloWorld("Hello World", "Hello World Demo.");
+	return entry::runApp(app, _argc, _argv);
 }
