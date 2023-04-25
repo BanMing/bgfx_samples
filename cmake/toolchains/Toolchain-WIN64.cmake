@@ -1,3 +1,0 @@
-set(CMAKE_SYSTEM_NAME Windows)
-set(TARGET_WINDOWS True)
-set(TARGET_WIN64 True)
