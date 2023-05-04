@@ -1,1 +1,1 @@
-set(EMSCRIPTEN True)
+set(PLATFORM emsripten)
