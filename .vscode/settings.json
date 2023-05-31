@@ -4,5 +4,6 @@
         "*.cfg": "coffeescript",
         "ctime": "cpp",
         "xlocale": "cpp"
-    }
+    },
+    "cmake.languageSupport.dotnetPath": "/usr/local/share/dotnet/dotnet"
 }
