@@ -12,11 +12,11 @@ public:
     }
 
 protected:
-    void onInit() {}
-    void onShutdown() {}
-    void onUpdate(float _deltaTime) {}
-    void onRender(float _inAspectRatio) {}
-    void onGui() {}
+    void onInit() override;
+    void onShutdown() override;
+    void onUpdate(float _deltaTime) override;
+    void onRender(float _inAspectRatio) override;
+    void onGui() override;
 };
 
 #endif //_DEBUG_DRAW_SAMPLE_H_

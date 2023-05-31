@@ -1,8 +1,7 @@
-set( APP_SOURCES
+set(APP_SOURCES
 	application.cpp
 	application.h
 )
-
 
 add_library(app_interface STATIC ${APP_SOURCES})
 
