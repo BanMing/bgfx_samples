@@ -2,7 +2,7 @@ set(MAIN_EXE_NAME main)
 
 add_executable(${MAIN_EXE_NAME} main.cpp)
 
-target_link_libraries(${MAIN_EXE_NAME} PRIVATE module app_helloworld)
+target_link_libraries(${MAIN_EXE_NAME} PRIVATE module app_helloworld app_debug_draw_sample)
 
 if(EMSCRIPTEN)
     target_link_options(
